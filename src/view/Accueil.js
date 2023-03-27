@@ -2,20 +2,21 @@ import Caroussel from "./Caroussel";
 import Card from "./Card";
 import Footer from "./Footer";
 import {gestionCards,} from "../controller/DisplayManage";
-import Menu from "./Menu";
 import Navigation from "./Navigation";
+import Menu2 from "./Menu2";
+
 
 const Accueil = () => {
-    var cardsMostVisited = gestionCards(10)
+    var cardsMostVisited = gestionCards(3)
 
     return (
         <>
             <div className="container-fluid fixed-top">
                 <Navigation/>
-                <Menu/>
+                <Menu2/>
             </div>
 
-            <div className="container-fluid">
+            <div className="container">
                 <Caroussel/>
             </div>
 
@@ -25,11 +26,13 @@ const Accueil = () => {
 
             <div className="container-fluid text-center">
                 {
-                    cardsMostVisited.map((elem) => <Card num={elem.num} img={elem.img}/>)
+                    cardsMostVisited.map((elem) => <Card num={elem.num} img={elem.img} key={elem.num}/>)
                 }
             </div>
 
-            <Footer/>
+            <div className='container-fluid' style={{backgroundColor: "#e3f2fd",}}>
+                <Footer/>
+            </div>
 
         </>
     )

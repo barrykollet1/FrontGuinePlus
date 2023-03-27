@@ -15,7 +15,7 @@ const Caroussel = () => {
 
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img src={img1} alt="Los Angeles" className="d-block w-100"/>
+                        <img src={img1} alt="Los Angeles" className="d-block w-100" style={{height: '50%'}}/>
                         <div className="carousel-caption d-none d-md-block">
                             <h5>First slide label</h5>
                             <p>Some representative placeholder content for the first slide.</p>

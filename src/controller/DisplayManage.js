@@ -1,5 +1,4 @@
-import imgc1 from "../img/img_c1.jpg";
-
+import imgc1 from "../img/logoG320.png";
 
 var gestionCards = (nbCard) => {
     var cards = []
@@ -20,10 +19,8 @@ var gestionCaroussel = (nbImgs) => {
 
 
 var gestionMenu = () => {
-    return [
-        "Informatique", "Communication", "Business", "Services Plublics", "Santé", "Culture", "Photographie", "Banques et Assurances",
-        "Transport", "Construction", "Immobilier"
-    ]
+    return ["Technologie", "Communication", "Business", "Services Plublics", "Banques et Assurances", "Santé", "Culture",
+        "Transport", "Construction", "Diverstissement", "Tourisme"]
 }
 
 
