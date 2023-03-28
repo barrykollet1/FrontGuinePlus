@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/guineeplus/static/css/main.fca0f165.css",
+    "main.js": "/guineeplus/static/js/main.9053e6da.js",
+    "static/js/787.13567c80.chunk.js": "/guineeplus/static/js/787.13567c80.chunk.js",
+    "static/media/bootstrap-icons.woff?": "/guineeplus/static/media/bootstrap-icons.6959d0d983ee318f8880.woff",
+    "static/media/img3.jpg": "/guineeplus/static/media/img3.ab34f8a74afb6e8e435f.jpg",
+    "static/media/bootstrap-icons.woff2?": "/guineeplus/static/media/bootstrap-icons.b2e5aab643c6f0fd2da6.woff2",
+    "static/media/img1.jpg": "/guineeplus/static/media/img1.6cfef71fc445d5580e26.jpg",
+    "static/media/img2.jpg": "/guineeplus/static/media/img2.d3640824e5a25dbb755a.jpg",
+    "static/media/logoG320.png": "/guineeplus/static/media/logoG320.c08bddfe877dd3446dd7.png",
+    "index.html": "/guineeplus/index.html",
+    "main.fca0f165.css.map": "/guineeplus/static/css/main.fca0f165.css.map",
+    "main.9053e6da.js.map": "/guineeplus/static/js/main.9053e6da.js.map",
+    "787.13567c80.chunk.js.map": "/guineeplus/static/js/787.13567c80.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fca0f165.css",
+    "static/js/main.9053e6da.js"
+  ]
+}
